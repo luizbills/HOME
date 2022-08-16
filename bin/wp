@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+echo 'Install WP-CLI on https://wp-cli.org/#installing'

@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+curl --progress-bar --upload-file "$1" https://transfer.sh/$(basename $1) | tee /dev/null;
+echo ''

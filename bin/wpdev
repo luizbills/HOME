@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+ddev poweroff || { echo "Failed on 'ddev poweroff'."; exit 1; }
+ddev launch /wp-admin || { echo "Failed on 'ddev launch'."; exit 1; }
+code . || { echo "Failed on start 'vscode'."; exit 1; }

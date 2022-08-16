@@ -1,0 +1,10 @@
+#!/bin/env bash
+
+for file in `find . -type f -name '*.php' ! -path './vendor/*'`
+do
+	php -l $file >/dev/null;
+	if [ $? -ne 0 ];
+	then
+		exit 1;
+	fi
+done

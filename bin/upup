@@ -1,0 +1,3 @@
+sudo apt-get -qq update &>/dev/null
+apt list --upgradable
+sudo apt-get -q upgrade
