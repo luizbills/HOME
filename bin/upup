@@ -1,3 +1,7 @@
+#!/usr/bin/env bash
+
+sudo pwd &>/dev/null # ask sudo password
+echo "Searching updates..."
 sudo apt-get -qq update &>/dev/null
 apt list --upgradable
 sudo apt-get -q upgrade
