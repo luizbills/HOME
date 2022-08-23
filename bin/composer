@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+echo 'Install Composer in https://getcomposer.org/doc/00-intro.md#installation-linux-unix-macos'
