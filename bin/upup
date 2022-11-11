@@ -2,6 +2,7 @@
 
 sudo pwd &>/dev/null # ask sudo password
 echo "Searching updates..."
-sudo apt-get -qq update &>/dev/null
+sudo apt-get -qq update
 apt list --upgradable
-sudo apt-get -q upgrade
+sudo apt upgrade
+sudo snap refresh
